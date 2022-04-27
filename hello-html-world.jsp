@@ -1,11 +1,11 @@
+<%@ page language="java" contentType="text/html"%>
+<%@ page import="java.text.*,java.util.*" %>
 <html>
-    <head><title>Hello World</title></head>
-
-    <body>
-        Hello World! <br>
-
-        <%
-            out.println("Your IP address is " + request.getRemoteAddr());
-        %>
-    </body>
+<head>
+<title>Date JSP</title>
+</head>
+<% SimpleDateFormat sdf=new SimpleDateFormat("MM/dd/yyyy"); %>
+<body>
+<h1>Welcome to Tomcat! Today is </h1>
+</body>
 </html>
